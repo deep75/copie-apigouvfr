@@ -1,9 +1,14 @@
 ![alt text](https://hubeau.eaufrance.fr/themes/hubeau/images/logos/logo-api.gouv.fr.svg "Restitution")
 
-Pour lancer cette image il suffit par exemple de lancer cette commande :
+Pour lancer le démonstrateur, il suffit par exemple de lancer cette commande pour Docker :
 
 ```bash
 docker run -d -p 80:3000 --name apigouvfr mcas/apigouvfr:latest
+```
+ou pour Kubernetes avec un contrôleur d'entrée :
+
+```bash
+kubectl apply -f deployment.yaml
 ```
 
 [![Build, lint & tests](https://github.com/betagouv/api.gouv.fr/actions/workflows/pre-merge.yml/badge.svg)](https://github.com/betagouv/api.gouv.fr/actions/workflows/pre-merge.yml)

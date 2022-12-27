@@ -2,6 +2,12 @@
 
 ![alt text](https://hubeau.eaufrance.fr/themes/hubeau/images/logos/logo-api.gouv.fr.svg "Restitution")
 
+Pour lancer cette image il suffit par exemple de lancer cette commande :
+
+```bash
+docker run -d -p 80:3000 --name apigouvfr mcas/apigouvfr:latest
+```
+
 [![Build, lint & tests](https://github.com/betagouv/api.gouv.fr/actions/workflows/pre-merge.yml/badge.svg)](https://github.com/betagouv/api.gouv.fr/actions/workflows/pre-merge.yml)
 [![Accessibilité](https://github.com/betagouv/api.gouv.fr/actions/workflows/check-accessibility.yml/badge.svg)](https://github.com/betagouv/api.gouv.fr/actions/workflows/check-accessibility.yml)
 [![Liens morts](https://github.com/betagouv/api.gouv.fr/actions/workflows/check-broken-links.yml/badge.svg)](https://github.com/betagouv/api.gouv.fr/actions/workflows/check-broken-links.yml)

@@ -14,7 +14,7 @@ kubectl apply -f deployment.yaml
 # api.gouv.fr
 
 Catalogue les API produites par les administrations centrales, les
-collectivités territoriales, les établissements publics… Chaque API est
+collectivités territoriales, les établissements publics … Chaque API est
 associée à une courte description fonctionnelle, une documentation technique,
 les modalités d'accès, d'éventuelles ressources supplémentaires et surtout des
 liens vers les services qui l'utilisent.

@@ -1,4 +1,6 @@
-# api.gouv.fr
+# api.gouv.
+
+![alt text](https://hubeau.eaufrance.fr/themes/hubeau/images/logos/logo-api.gouv.fr.svg "Restitution")
 
 [![Build, lint & tests](https://github.com/betagouv/api.gouv.fr/actions/workflows/pre-merge.yml/badge.svg)](https://github.com/betagouv/api.gouv.fr/actions/workflows/pre-merge.yml)
 [![Accessibilité](https://github.com/betagouv/api.gouv.fr/actions/workflows/check-accessibility.yml/badge.svg)](https://github.com/betagouv/api.gouv.fr/actions/workflows/check-accessibility.yml)

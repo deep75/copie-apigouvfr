@@ -5,12 +5,6 @@ Pour lancer le démonstrateur, il suffit par exemple de lancer cette commande po
 ```bash
 docker run -d -p 80:3000 --name apigouvfr mcas/apigouvfr:latest
 ```
-ou pour Kubernetes avec un contrôleur d'entrée :
-
-```bash
-kubectl apply -f deployment.yaml
-```
-
 # api.gouv.fr
 
 Catalogue les API produites par les administrations centrales, les

@@ -121,10 +121,6 @@ Avant chaque commit est lancé un script qui redimmensionne et compresse les ima
 npm run create-thumbnail
 ```
 
-### Preview apps
-
-Chaque pull request est déployé dans des [review app](https://devcenter.heroku.com/articles/github-integration-review-apps) sur [Heroku](https://dashboard.heroku.com/)
-
 ### Deploiement
 
 Le déploiement se fait par [Github action](https://github.com/betagouv/api.gouv.fr/actions)
